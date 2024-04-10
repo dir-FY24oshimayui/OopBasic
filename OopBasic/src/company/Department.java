@@ -1,14 +1,14 @@
 package company;
 
-public class Depertment {
+public class Department {
     private final String name;
-    private final String deparmentId;
+    private final String departmentId;
     private int  budget;
     
     //コンストラクター
-    public Depertment(String name, String departmentId,int budget) {
+    public Department(String name, String departmentId,int budget) {
     this.name = name;
-    this.deparmentId = departmentId;
+    this.departmentId = departmentId;
     this.budget = budget;
     }
     
